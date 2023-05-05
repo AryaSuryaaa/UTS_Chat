@@ -15,7 +15,13 @@ public class welcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
         Button btnLogin = findViewById(R.id.btnLogin);
-
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent login = new Intent(welcomeActivity.this, loginActivity.class);
+                startActivity(login);
+            }
+        });
 
         Button btnRegist = findViewById(R.id.btnRegister);
         btnRegist.setOnClickListener(new View.OnClickListener() {
