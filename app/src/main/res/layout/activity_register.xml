@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="Masukkan nomor telepon Anda"
             android:textColor="@color/blueMain"
-            android:textSize="23sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             android:gravity="center"
             android:padding="20dp"/>
