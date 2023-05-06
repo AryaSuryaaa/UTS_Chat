@@ -99,7 +99,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnOnboarding3"
+        android:id="@+id/btnToOTP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
