@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center_vertical|">
+            android:gravity="center_vertical">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,119 +95,7 @@
 <!--            SESSION MESSAGE LIST TOP END-->
 
 <!--            SESSION MESSAGE LIST CHAT START-->
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            android:gravity="center_vertical"
-                            android:layout_marginBottom="16dp">
-<!--                            FOTO PROFILE-->
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:src="@drawable/ic_launcher_background"
-                                android:background="@drawable/img_rounded"
-                                android:outlineProvider="background"
-                                android:clipToOutline="true"
-                                android:layout_marginRight="12dp"/>
-<!--                            NAMA PROFILE DAN WAKTU-->
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:padding="8dp"
-                                android:background="@drawable/bubble_chat_rounded">
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="horizontal">
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="Arya Surya"
-                                        android:textSize="16sp"
-                                        android:textStyle="bold"/>
-                                    <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:orientation="horizontal"
-                                        android:gravity="end">
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="12:20"
-                                            android:textSize="16sp"
-                                            />
-                                    </LinearLayout>
-                                </LinearLayout>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:textSize="12sp"
-                                    android:text="Lorem asda ewrw asda r asdwqw sfdf sddsdsssssssssssssssssssssasd"/>
-                            </LinearLayout>
-                        </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:gravity="center_vertical"
-                        android:layout_marginBottom="16dp">
-                        <!--                            FOTO PROFILE-->
-                        <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:src="@drawable/ic_launcher_background"
-                            android:background="@drawable/img_rounded"
-                            android:outlineProvider="background"
-                            android:clipToOutline="true"
-                            android:layout_marginRight="12dp"/>
-                        <!--                            NAMA PROFILE DAN WAKTU-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:padding="8dp"
-                            android:background="@drawable/bubble_chat_rounded">
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal">
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Arya Surya"
-                                    android:textSize="16sp"
-                                    android:textStyle="bold"/>
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="horizontal"
-                                    android:gravity="end">
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="12:20"
-                                        android:textSize="16sp"
-                                        />
-                                </LinearLayout>
-                            </LinearLayout>
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:textSize="12sp"
-                                android:text="Lorem asda ewrw asda r asdwqw sfdf sddsdsssssssssssssssssssssasd"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                </LinearLayout>
-            </ScrollView>
+            <include layout="@layout/activity_chat_list"/>
 
 <!--            SESSION MESSAGE LIST CHAT END-->
         </LinearLayout>
