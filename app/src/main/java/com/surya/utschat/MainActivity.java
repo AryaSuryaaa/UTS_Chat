@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
 //        Inisialisasi daftar Item
         List<ItemList> itemList = new ArrayList<>();
-        itemList.add(new ItemList("https://via.placeholder.com/150", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
-        itemList.add(new ItemList("https://via.placeholder.com/150", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
-        itemList.add(new ItemList("https://via.placeholder.com/150", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
-        itemList.add(new ItemList("https://via.placeholder.com/150", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
 
 //        Inisialisasi adapter RecyclerView
         AdapterList myAdapter = new AdapterList(itemList);

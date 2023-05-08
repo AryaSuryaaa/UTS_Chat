@@ -18,7 +18,7 @@ public class welcomeActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent login = new Intent(welcomeActivity.this, loginActivity.class);
+                Intent login = new Intent(welcomeActivity.this, LoginActivity.class);
                 startActivity(login);
             }
         });
@@ -27,7 +27,7 @@ public class welcomeActivity extends AppCompatActivity {
         btnRegist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent regist = new Intent(welcomeActivity.this, registerActivity.class);
+                Intent regist = new Intent(welcomeActivity.this, RegisterActivity.class);
                 startActivity(regist);
             }
         });
