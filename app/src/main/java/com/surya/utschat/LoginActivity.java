@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         btnVerifLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String verifNomorInput = nomorLogin.getText().toString();
+                String verifNomorInput = "0" + nomorLogin.getText().toString();
 
                 nomorTeleponList.getNomorTelepon();
 

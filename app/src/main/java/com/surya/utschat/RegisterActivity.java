@@ -15,27 +15,24 @@ import java.util.Set;
 
 
 public class RegisterActivity extends AppCompatActivity {
-    EditText daftarNomorHP;
 
+    EditText daftarNomorHP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        NomorTeleponList nomorTeleponList = new NomorTeleponList(RegisterActivity.this);
-
         daftarNomorHP = findViewById(R.id.daftarNomorHP);
-
 
         Button btnToOTPActivity = findViewById(R.id.btnToOTP)   ;
         btnToOTPActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String nomorHP = daftarNomorHP.getText().toString();
-                nomorTeleponList.saveNomorTelepon(nomorHP);
+                String nomorHP = "0" + daftarNomorHP.getText().toString();
 
-                Intent toOTP = new Intent(RegisterActivity.this, welcomeActivity.class);
+                Intent toOTP = new Intent(RegisterActivity.this, OTPActivity.class);
+                toOTP.putExtra("phoneNumber", nomorHP);
                 startActivity(toOTP);
             }
         });

@@ -14,6 +14,7 @@ public class welcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
+        // Button to Login
         Button btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,6 +24,7 @@ public class welcomeActivity extends AppCompatActivity {
             }
         });
 
+        // Button to Register
         Button btnRegist = findViewById(R.id.btnRegister);
         btnRegist.setOnClickListener(new View.OnClickListener() {
             @Override

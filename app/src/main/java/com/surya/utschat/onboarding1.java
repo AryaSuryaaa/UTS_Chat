@@ -9,8 +9,6 @@ import android.widget.Button;
 
 public class onboarding1 extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

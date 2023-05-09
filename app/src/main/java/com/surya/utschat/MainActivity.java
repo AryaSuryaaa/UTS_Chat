@@ -23,10 +23,16 @@ public class MainActivity extends AppCompatActivity {
 
 //        Inisialisasi daftar Item
         List<ItemList> itemList = new ArrayList<>();
-        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
-        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
-        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
-        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer "));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhg vhgvhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgv nhgvhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgvhg vhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgvhg vhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgvhgvhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgvh gvhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgvh gvhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgvh gvhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhgvh gvhgvhvghvghvghvhgvhgvvhgvhgvh"));
+        itemList.add(new ItemList("https://via.placeholder.com/80", "Arya Surya", "20:12", "Lorem asda adas adada dacsd frg rtgfdb ddrer gguygugvhgvhg  vhgvhgvhvghvghvghvhgvhgvvhgvhgvh"));
 
 //        Inisialisasi adapter RecyclerView
         AdapterList myAdapter = new AdapterList(itemList);

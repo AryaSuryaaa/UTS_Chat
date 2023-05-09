@@ -30,15 +30,6 @@ public class NomorTeleponList {
             String phoneNumber = teleponList.getString("nomorTelepon" + i , null);
             Log.d("PhoneNumber", "Phone number" + i + " : " + phoneNumber);
         }
-//        int count = teleponList.getInt("nomorTelepon", 0);
-//        List<String> nomorTelepons = new ArrayList<>();
-//        for (int i = 0; i < count; i++) {
-//            String nomorTelepon = teleponList.getString("nomorTelepon" + i, null);
-//            if (nomorTelepon != null) {
-//                nomorTelepons.add(nomorTelepon);
-//            }
-//        }
-//        return nomorTelepons;
     }
 
     public boolean isPhoneNumberSaved(String phoneNumber) {

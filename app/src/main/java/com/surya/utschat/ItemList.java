@@ -3,7 +3,6 @@ package com.surya.utschat;
 public class ItemList {
     private String imageUrl, nama, displayTime, displayText;
 
-
     public ItemList(String imageUrl, String nama, String displayTime, String displayText) {
         this.imageUrl = imageUrl;
         this.nama = nama;
